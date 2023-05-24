@@ -9,7 +9,7 @@ void setup() {
   Type("cmd");
   Enter();
   delay(500);
-  Type("shutdown /s /t 10 /c YourMessage");
+  Type("echo hola"); 
   Enter();
   Keyboard.end();
   digitalWrite(LED_BUILTIN, LOW);
